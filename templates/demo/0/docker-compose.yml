@@ -1,0 +1,7 @@
+nato:
+  image: leodotcloud/nato-alphabets
+  ports: 
+    - 41011:80
+  labels:
+    io.rancher.scheduler.global: 'true'
+
